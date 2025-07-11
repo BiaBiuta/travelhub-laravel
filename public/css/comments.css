@@ -1,0 +1,115 @@
+body {
+    background: #eee;
+}
+/* .card-body {
+    position: relative;
+} */
+
+.card-list {
+    padding: 0;
+    font-size: .8rem;
+    list-style-type: none;
+    /* max-height: 300px;
+    overflow-y: auto; */
+}
+
+.card-list li {
+    margin-bottom: 10px;
+    overflow: auto;
+    color: #ffffffff;
+}
+
+.card-list .chat-img {
+    float: left;
+    width: 48px;
+}
+
+.card-list .chat-img img {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.card-list .chat-message {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #5a99ee;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.card-list .chat-message::before {
+    content: "";
+        position: absolute;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        transform: translateY(-50%);
+}
+
+.card-list .chat_message h5 {
+    margin: 0 0 5px 0;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 0.4rem;
+}
+
+.card-list .chat-message p {
+    font-size: 1.25rem;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.card-list .chat-body {
+    margin-left: 20px;
+    float: left;
+    width: 70%;
+}
+
+.card-list .in .chat-message::before {
+left: -12px;
+    border-width: 10px 12px 10px 0;
+    border-color: transparent #5a99ee transparent transparent;
+}
+
+.card-list .out .chat-img {
+    float: right;
+}
+
+.card-list .out .chat-body {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.card-list .out .chat-message::before {
+    right: -12px;
+        border-width: 10px 0 10px 12px;
+        /* Ajustează dimensiunile pentru săgeată */
+        border-color: transparent transparent transparent #5a99ee;
+}
+
+.card .card-header:first-child {
+    -webkit-border-radius: 0.3rem 0.3rem 0 0;
+    -moz-border-radius: 0.3rem 0.3rem 0 0;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.card .card-header {
+    background: #17202b;
+    border: 0;
+    font-size: 0.4rem;
+    padding: .65rem 1rem;
+    position: relative;
+    font-weight: 600;
+    color: #ffffffff;
+}
+
+.content {
+    margin-top: 40px;
+}

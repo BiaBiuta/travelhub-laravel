@@ -1,0 +1,29 @@
+.nowrap{
+    white-space: nowrap;
+}
+.icon-circle {
+    border-radius: 50%;
+    width: 50px;
+    /* Ajustează dimensiunea după nevoile tale */
+    height: 50px;
+    /* Ajustează dimensiunea după nevoile tale */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc107;
+    /* Culoarea de fundal galbenă, modifică după nevoile tale */
+}
+
+.icon-circle img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asigură că imaginea se potrivește corect în container */
+}
+.logo{
+    text-indent: -999999px; 
+    background-color:url("img/logo.png") ;
+    width:300px;
+    height: 300px;;
+}
